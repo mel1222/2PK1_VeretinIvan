@@ -9,8 +9,12 @@ namespace pz_5
     internal class Program
     {
         static void Main(string[] args)
+
         {
-            Console.WriteLine("работа с git");
+            for (int i = 0; i <= 80; i += 4)
+            {
+                Console.WriteLine(i);
+            }
         }
     }
 }
