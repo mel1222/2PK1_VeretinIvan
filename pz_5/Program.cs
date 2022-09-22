@@ -12,7 +12,11 @@ namespace pz_5
         static void Main(string[] args)
         {
             {
-
+                for(int j = 40, i = 1; j - i >= 15; j--, i++)
+                {
+                    Console.WriteLine(j - i);
+                }
+                Console.ReadKey();
             }
 
 
